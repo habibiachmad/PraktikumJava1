@@ -1,4 +1,4 @@
-
+import javax.swing.JOptionPane;
 public class DataTypes{
  public static void main(String[] args){
 
@@ -10,13 +10,13 @@ public class DataTypes{
   char nilaiAbjad = 'B';
   boolean tampan = true;
   System.out.println("Nama depan : " + namaDepan);
-System.out.println("Nama Belakang : " + namaBelakang);
-System.out.println("Usia : " + usia);
-System.out.println("Target Kuliah : " +targetTahunKuliah +" Tahun" );
-System.out.println("IPK : " + ipk);
-System.out.println("Nilai : " + nilaiAbjad);
-System.out.println("Tamvan : " + tampan);
+  System.out.println("Nama Belakang : " + namaBelakang);
+  System.out.println("Usia : " + usia);
+  System.out.println("Target Kuliah : " + targetTahunKuliah + " Tahun" );
+  System.out.println("IPK : " + ipk);
+  System.out.println("Nilai : " + nilaiAbjad);
+  System.out.println("Tampan : " + tampan);
 
-
+  JOptionPane.showMessageDialog(null,"Hai ," +namaDepan + namaBelakang );
 }
 }	
