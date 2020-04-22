@@ -1,13 +1,14 @@
+
 public class DataTypes{
- public static void(String[] args){
+ public static void main(String[] args){
 
   String namaDepan = "Achmad";
-  String namaTengah = "Habibi";
-  int usia = 17l
+  String namaBelakang = "Habibi";
+  int usia = 17;
   int targetTahunKuliah = 3;
-  double ipk = 3,142857143;
-  char nilai Abjad = 'B';
+  double ipk = 3.142;
+  char nilaiAbjad = 'B';
   boolean tampan = true;
 
 }
-}
+}	
